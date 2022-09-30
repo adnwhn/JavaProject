@@ -21,8 +21,6 @@ The application will:
 
 An auditing service will need to be created that will log to a CSV file each time an action from the first stage is performed. Structure of the file: `name_of_action,timestamp`.
 
-## Stage III 
-
 ### Database persistence
 
 Create services that use JDBC to store the data in a database of your choosing.
